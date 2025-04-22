@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.adsbygoogle {
+  margin: 0 auto;
+}
+
+.adsense {
+  width: 100%;
+  margin: 0 20px 1rem;
+}
+
+.adsense-above-footer {
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+.adsense-below-content {
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+.adsense-section {
+  text-align: center;
+  margin: 0 10px auto;
+  margin-bottom: 40px;
+}
+.adsense-section .adsense-square-1 {
+  display:inline-block;
+  padding: 0.5em;
+}
+.adsense-section .adsense-square-2 {
+  display:inline-block;
+  padding: 0.5em;
+}
+.adsense-section .adsense-square-1 .adsbygoogle,
+.adsense-section .adsense-square-2 .adsbygoogle {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width:700px) {
+  .adsense-section .adsense-square-2 {
+    display: none;
+  }
+}
+
+.author-stats {
+  font-style: initial !important;
+}
+
+.author-template .site-header-content,
+.tag-template .site-header-content {
+  padding: 8vw 4vw 10vw !important;
+}
+
+#back-to-top {
+    cursor: pointer;
+    position: fixed;
+		background-color: #29709e;
+    bottom: 60px;
+    right: 20px;
+    display: none;
+		padding: 9px 13px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    opacity: 1;
+    z-index: 99999;
+}
+
+@media screen and (max-width: 760px) {
+	#back-to-top {
+		bottom: 80px;
+	}
+}
+
+#browser-print {
+    cursor: pointer;
+    position: fixed;
+		background-color: #333;
+    bottom: 105px;
+    right: 20px;
+    display: none;
+		padding: 10px 13px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    opacity: 1;
+    z-index: 99999;
+}
+
+@media screen and (max-width: 760px) {
+	#browser-print {
+		bottom: 125px;
+	}
+}
+
+code {
+  color: #92388f !important;
+}
+
+#chat-button {
+    cursor: pointer;
+    position: fixed;
+    bottom: 152px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+    outline: none;
+    z-index: 99999;
+}
+#chat-button img {
+    width: 40px;
+}
+
+@media screen and (max-width: 760px) {
+	#chat-button {
+		bottom: 172px;
+	}
+}
+
+.data>table {
+  word-break: keep-all !important;
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  text-align: center !important;
+}
+
+.data>table th, .data>table tr:nth-child(2n) {
+  background-color: #f8f8f8 !important;
+}
+
+.data>table th {
+  font-weight: bold !important;
+}
+
+.data>table td, .data>table th {
+  padding: .4em .8em !important;
+  border: 1px solid #ddd !important;
+}
+
+.embed-video {
+  position: relative; margin: 2em 0;
+  box-shadow: rgb(51, 51, 51) 10px 10px 35px -10px;
+  border: 1px solid #ddd;
+  padding-bottom: 56.25%; height: 0;
+  overflow: hidden; max-width: 100%; height: auto; }
+
+.embed-video iframe, .embed-video object, .embed-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.focus-zone, .focus-zone-center {
+  background-color: #f8f8f8;
+  padding: 1.5em 1em;
+  margin-bottom: 2rem;
+}
+
+.focus-zone p {
+  margin: 0 !important;
+}
+
+.focus-zone-center, .focus-zone-center p {
+  text-align: center;
+}
+
+#footer-banner {
+	position: fixed;
+  display: none;
+	bottom: 0px;
+	width: 100%;
+	max-height: 70px;
+	background: linear-gradient(70deg, #93278F, #00A99D, #93278F, #00A99D);
+	box-shadow: 0px 10px 20px 0px #333;
+	text-align: center;
+	z-index: 900;
+}
+
+#footer-banner a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer-banner .footer-promo-text {
+	position: relative;
+	margin: 1em;
+	font-size: 14px;
+}
+
+@media screen and (min-width: 760px) {
+	#footer-banner .footer-promo-text br {
+		display: none;
+	}
+}
+
+.home-new-template .site-header-content {
+  padding: 10vw 4vw 8vw !important;
+}
+
+.home-new-template .site-nav ul {
+  background-color: #1d1412;
+}
+
+.home-new-template .site-nav-left {
+  padding-left: 10px;
+}
+
+@media (min-width: 900px) {
+  .home-new-template .post-feed {
+    margin: 0 -20px !important;
+    padding-top: 40px !important;
+  }
+}
+
+#local-search-result ul li {
+  padding-top: 1.2em !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body img {
+  margin-bottom: 2rem;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.markdown-body iframe {
+  margin: 0 !important;
+}
+
+.markdown-body>table {
+  min-width: 50% !important;
+}
+
+.read-next-card {
+  margin: 0 20px 20px !important;
+}
+
+.read-more-after-pay {
+	text-align:center;
+	margin: 1rem 0;
+	font-weight:bold;
+	color:#fff;
+	background-image: url(https://hellotblog.files.wordpress.com/2020/09/mkttalk-bg-image-blur-02-1920x1080-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	border-radius: 1rem;
+  cursor: pointer;
+}
+.read-more-after-pay-container {
+  margin: 3rem 0 0;
+	padding: 5rem 1.5rem;
+  border-radius: 1rem;
+	line-height: 1.5rem;
+}
+
+.site-nav-left::-webkit-scrollbar {
+  display: none;
+}
+
+.site-nav-left {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* @media (max-width: 700px) {
+  .search-button-area {
+    box-shadow: -5px 0px 5px -5px #eee;
+  }
+} */
+
+.search-button-area,
+.site-nav-right {
+  box-shadow: -5px 0px 5px -5px #eee;
+}
+
+.search-keyword {
+  color: #fff !important;
+  background-color: #29709e;
+  font-weight: bold;
+  font-style: inherit !important;
+}
+
+.search-overlay {
+  background: none !important;
+}
+
+.search-overlay-title {
+  position: absolute;
+  left: 6rem;
+  top: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+@media (max-width: 1024px) {
+  .search-overlay-title {
+    display: none;
+  }
+}
+
+.search-result {
+  margin-top: 1em;
+}
+
+.search-result-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shadow, .shadow img {
+  box-shadow: 0 0.5rem 2.5rem 0 rgba(0,0,0,0.2)!important;
+}
+
+.site-description {
+  font-weight: 700;
+  opacity: 1.0;
+  padding: 10px 0 0 !important;
+  text-shadow: 1px 1px 5px #111;
+}
+
+.site-header-content .author-profile-image {
+  box-shadow: 0 0 20px 0px hsla(0,0%,100%, 1) !important;
+}
+
+.site-footer {
+  padding-bottom: 60px !important;
+}
+
+@media (max-width: 500px) {
+  .site-footer {
+    padding-bottom: 90px !important;
+  }
+}
+
+.site-footer-content {
+  white-space: nowrap;
+}
+
+.site-title {
+  text-shadow: 1px 1px 5px #111;
+}
+
+.site-nav {
+  font-weight: 700;
+}
+
+.site-nav ul {
+  text-shadow: 1px 1px 5px #111;
+}
+
+.tags-postTags {
+  margin: 3vw 0 !important;
+}
+
+@media (min-width: 500px) {
+  .post-full-header {
+    padding: 5vw 3vw 4vw !important;
+  }
+}
+
+.post-full-meta {
+  margin-bottom: 0 !important;
+  margin-top: 1.2em !important;
+}
+
+@media (max-width: 500px) {
+  .post-full-meta {
+    line-height: inherit !important;
+  }
+}
+
+.post-wptalk-logo {
+  text-align: center;
+}
+
+.prev-next-post {
+  color: transparent !important;
+  display: unset !important;
+}
+
+.next-post, .page-nav>.next, .page-nav>.prev, .prev-next-post, .prev-post {
+  width: 49%;
+}
+
+@media (max-width: 800px) {
+  .next-post, .page-nav>.next, .page-nav>.prev, .prev-next-post, .prev-post {
+    width: 100% !important;
+  }
+}
+
+.read-next-card-header-title {
+  margin: 2rem 0 0 !important;
+}
+
+.unlink {
+  pointer-events: none;
+  cursor: default;
+}
+
+.unlink a {
+  color: inherit !important;
+}
+
+.updated-post-date {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.updated-post-date .date-block {
+  color: #29709e;
+}
+
+@media (max-width: 500px) {
+  .updated-post-date {
+    font-size: 1.2rem !important;
+  }
+}
+
+#wpsalenow-themes-free li .item-price,
+#wpsalenow-themes-sale li .item-price,
+#wpsalenow-plugins-sale li .item-price,
+#wpsalenow-hosting-sale li .item-price {
+	font-size: 1.4rem;
+	color: #666;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}

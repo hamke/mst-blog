@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>워드프레스웹코리아(WP-KR) 매거진</title>
+    <title>MoneySkillTalk Blog</title>
     <link>https://blog.moneyskilltalk.com/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     

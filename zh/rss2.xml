@@ -8,23 +8,23 @@
     <atom:link href="/zh/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Learn how to make the most of your money skill here.</description>
-    <pubDate>Tue, 29 Apr 2025 10:36:54 GMT</pubDate>
+    <pubDate>Tue, 29 Apr 2025 10:35:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>WordPress Sites Random Viewer - 隨機探索世界各地以 WordPress 建置的網站</title>
-      <link>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/</link>
-      <guid>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/</guid>
+      <title>WordPress Analytics - 檢查網站是否使用 WordPress 架設，並分析其他訊息</title>
+      <link>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/</link>
+      <guid>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/</guid>
       <pubDate>Tue, 29 Apr 2025 09:00:00 GMT</pubDate>
       <description>
       
-        WordPress網站隨機瀏覽器是一個基於網頁的工具，可讓您隨機探索世界各地以 WordPress 建置的網站.
+        是一個免費的線上工具，可檢查網站是否使用 WordPress 架設，並分析使用的主題、外掛及主機服務等資訊.
       
       </description>
       
-      <content:encoded><![CDATA[<p>WordPress 網站隨機瀏覽器（<a href="http://www.wp-viewer.com）是一個基於網頁的工具，可讓您隨機探索世界各地以" target="_blank" rel="noopener">www.wp-viewer.com）是一個基於網頁的工具，可讓您隨機探索世界各地以</a> WordPress 建置的網站。對於想快速瀏覽多種 WordPress 網站範例的設計師、開發者與行銷人員來說，是一個非常實用的資源。</p><p>⸻</p><p>🔍 主要功能與特色<br>    •    隨機網站瀏覽：進入網站後，只需點擊「Next」按鈕，即可隨機瀏覽各種 WordPress 網站。<br>    •    簡潔直觀的介面：無需複雜設定，只需按一下按鈕即可探索新網站，使用上非常直覺。<br>    •    多語言支援：提供韓文、英文、日文、中文（繁體與簡體）、越南文等多種語言，方便來自不同國家的使用者。</p><p>⸻</p><p>🎯 使用情境範例<br>    •    獲取設計靈感：透過瀏覽各種風格的 WordPress 網站，激發您的網站設計創意。<br>    •    作品集參考：開始製作自己的 WordPress 專案前，可參考其他網站的架構與功能。<br>    •    客戶提案展示：向客戶展示不同類型的 WordPress 網站範例，以便討論喜好的風格與方向。</p><p>⸻</p><p>🔗 造訪方式</p><p>點擊以下連結，即可立即體驗 WP-Viewer：</p><p>👉 <a href="http://www.wp-viewer.com" target="_blank" rel="noopener">http://www.wp-viewer.com</a></p><p>若您需要中文版，請造訪：<a href="http://www.wp-viewer.com/zh/" target="_blank" rel="noopener">http://www.wp-viewer.com/zh/</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 是一個免費的線上工具，可檢查網站是否使用 WordPress 架設，並分析使用的主題、外掛及主機服務等資訊。對於開發者、設計師和行銷人員來說，在了解競爭對手或參考網站的技術架構時非常有幫助。</p><p>🔍 主要功能<br>    1.    WordPress 使用偵測<br>• 自動判斷輸入的網址是否為 WordPress 架設。<br>    2.    主題與外掛分析<br>• 列出網站目前使用的 WordPress 主題與外掛。<br>    3.    主機服務資訊<br>• 推測並顯示網站的主機服務提供商。<br>    4.    代理機構資訊登錄<br>• 可新增或修改分析結果中顯示的代理機構資訊。<br>    5.    多語言支援<br>• 支援韓文、英文、日文、中文、越南文等多種語言，全球皆可使用。</p><p>🛠 使用方法<br>    1.    造訪 <a href="http://www.wp-data.com" target="_blank" rel="noopener">www.wp-data.com</a><br>    2.    輸入你要分析的網站網址（例如：<a href="https://example.com）" target="_blank" rel="noopener">https://example.com）</a><br>    3.    點擊「分析」按鈕，即可查看是否使用 WordPress、主題、外掛及主機資訊等。</p><p>🎯 使用範例<br>• 快速掌握參考網站的技術架構，應用於專案。<br>• 分析競爭對手的主題與外掛，進行對標。<br>• 登錄代理機構資訊，管理與展示作品集。</p><p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 無需安裝或登入即可輕鬆使用，是快速了解 WordPress 網站技術資訊的好幫手。不過，由於分析結果基於公開資訊，部分外掛或自訂內容可能無法準確偵測。</p>]]></content:encoded>
       
-      <comments>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/#disqus_thread</comments>
+      <comments>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/#disqus_thread</comments>
     </item>
     
     <item>
@@ -44,19 +44,19 @@
     </item>
     
     <item>
-      <title>WordPress Analytics - 檢查網站是否使用 WordPress 架設，並分析其他訊息</title>
-      <link>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/</link>
-      <guid>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/</guid>
+      <title>WordPress Sites Random Viewer - 隨機探索世界各地以 WordPress 建置的網站</title>
+      <link>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/</link>
+      <guid>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/</guid>
       <pubDate>Tue, 29 Apr 2025 09:00:00 GMT</pubDate>
       <description>
       
-        是一個免費的線上工具，可檢查網站是否使用 WordPress 架設，並分析使用的主題、外掛及主機服務等資訊.
+        WordPress網站隨機瀏覽器是一個基於網頁的工具，可讓您隨機探索世界各地以 WordPress 建置的網站.
       
       </description>
       
-      <content:encoded><![CDATA[<p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 是一個免費的線上工具，可檢查網站是否使用 WordPress 架設，並分析使用的主題、外掛及主機服務等資訊。對於開發者、設計師和行銷人員來說，在了解競爭對手或參考網站的技術架構時非常有幫助。</p><p>🔍 主要功能<br>    1.    WordPress 使用偵測<br>• 自動判斷輸入的網址是否為 WordPress 架設。<br>    2.    主題與外掛分析<br>• 列出網站目前使用的 WordPress 主題與外掛。<br>    3.    主機服務資訊<br>• 推測並顯示網站的主機服務提供商。<br>    4.    代理機構資訊登錄<br>• 可新增或修改分析結果中顯示的代理機構資訊。<br>    5.    多語言支援<br>• 支援韓文、英文、日文、中文、越南文等多種語言，全球皆可使用。</p><p>🛠 使用方法<br>    1.    造訪 <a href="http://www.wp-data.com" target="_blank" rel="noopener">www.wp-data.com</a><br>    2.    輸入你要分析的網站網址（例如：<a href="https://example.com）" target="_blank" rel="noopener">https://example.com）</a><br>    3.    點擊「分析」按鈕，即可查看是否使用 WordPress、主題、外掛及主機資訊等。</p><p>🎯 使用範例<br>• 快速掌握參考網站的技術架構，應用於專案。<br>• 分析競爭對手的主題與外掛，進行對標。<br>• 登錄代理機構資訊，管理與展示作品集。</p><p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 無需安裝或登入即可輕鬆使用，是快速了解 WordPress 網站技術資訊的好幫手。不過，由於分析結果基於公開資訊，部分外掛或自訂內容可能無法準確偵測。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>WordPress 網站隨機瀏覽器（<a href="http://www.wp-viewer.com）是一個基於網頁的工具，可讓您隨機探索世界各地以" target="_blank" rel="noopener">www.wp-viewer.com）是一個基於網頁的工具，可讓您隨機探索世界各地以</a> WordPress 建置的網站。對於想快速瀏覽多種 WordPress 網站範例的設計師、開發者與行銷人員來說，是一個非常實用的資源。</p><p>⸻</p><p>🔍 主要功能與特色<br>    •    隨機網站瀏覽：進入網站後，只需點擊「Next」按鈕，即可隨機瀏覽各種 WordPress 網站。<br>    •    簡潔直觀的介面：無需複雜設定，只需按一下按鈕即可探索新網站，使用上非常直覺。<br>    •    多語言支援：提供韓文、英文、日文、中文（繁體與簡體）、越南文等多種語言，方便來自不同國家的使用者。</p><p>⸻</p><p>🎯 使用情境範例<br>    •    獲取設計靈感：透過瀏覽各種風格的 WordPress 網站，激發您的網站設計創意。<br>    •    作品集參考：開始製作自己的 WordPress 專案前，可參考其他網站的架構與功能。<br>    •    客戶提案展示：向客戶展示不同類型的 WordPress 網站範例，以便討論喜好的風格與方向。</p><p>⸻</p><p>🔗 造訪方式</p><p>點擊以下連結，即可立即體驗 WP-Viewer：</p><p>👉 <a href="http://www.wp-viewer.com" target="_blank" rel="noopener">http://www.wp-viewer.com</a></p><p>若您需要中文版，請造訪：<a href="http://www.wp-viewer.com/zh/" target="_blank" rel="noopener">http://www.wp-viewer.com/zh/</a></p>]]></content:encoded>
       
-      <comments>https://blog.moneyskilltalk.com/zh/wordpress-wp-data-analytics/#disqus_thread</comments>
+      <comments>https://blog.moneyskilltalk.com/zh/wordpress-wp-viewer/#disqus_thread</comments>
     </item>
     
     <item>

@@ -250,15 +250,10 @@
     
     <nav id="gobottom" class="pagination">
       
-        <a class="prev-post" title="WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息" href="/cn/wordpress-wp-data-analytics/">
-          ←
-          WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息
-        </a>
-      
       <span class="prev-next-post">·</span>
       
-        <a class="next-post" title="WordPress Sites Random Viewer - 随机浏览全球使用 WordPress 搭建的网站" href="/cn/wordpress-wp-viewer/">
-          WordPress Sites Random Viewer - 随机浏览全球使用 WordPress 搭建的网站
+        <a class="next-post" title="WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息" href="/cn/wordpress-wp-data-analytics/">
+          WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息
           →
         </a>
       
@@ -295,13 +290,13 @@
       
       
       <li>
-        <a href="/cn/wordpress-wp-data-analytics/">WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息</a>
+        <a href="/cn/wordpress-wp-sale-now/">WordPress Sale Now - WordPress主题、插件和主机服务最新折扣和免费促销信息</a>
       </li>
       
       
       
       <li>
-        <a href="/cn/wordpress-wp-sale-now/">WordPress Sale Now - WordPress主题、插件和主机服务最新折扣和免费促销信息</a>
+        <a href="/cn/wordpress-wp-data-analytics/">WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息</a>
       </li>
       
       
@@ -369,25 +364,27 @@
 			<i class="fas fa-dollar-sign"></i> <a href="/cn/" title="MoneySkillTalk Blog">MoneySkillTalk Blog</a>
 			&copy; <span class="post-year"></span> 
 		</div>
-		<nav class="site-footer-nav">
+		<!-- <nav class="site-footer-nav">
 			
 			<a href="https://www.esenderchina.com/cn/" title="易博通(eSender) : 中国&#x2F;香港虚拟电话号码服务" target="_blank" rel="noopener">易博通(eSender) : 中国&#x2F;香港虚拟电话号码服务</a>
+		</nav> -->
+		<nav class="site-footer-nav site-footer-languages">
+			<a href="/en/" id="lang-en">English</a>
+			<a href="/cn/" id="lang-cn">中文简体</a>
+			<a href="/zh/" id="lang-zh">中文繁體</a>
+			<a href="/jp/" id="lang-jp">日本語</a>
+			<a href="/kr/" id="lang-kr">한국어</a>
+			<a href="/vn/" id="lang-vn">Tiếng Việt</a>
 		</nav>
 	</div>
 </footer>
 <div class="sponsorship" style="background-color:#000!important; text-align:center; font-size:0.5rem;">
-	<a href="https://www.langtalk.kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		랭톡
+	<!-- <a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
 	</a> <span style="color:#000!important;">|</span>
-	<a href="https://news.langtalk.kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		랭톡 매거진
-	</a> <span style="color:#000!important;">|</span>
-	<a href="https://www.homepagechina.com/kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		홈페이지차이나
-	</a> <span style="color:#000!important;">|</span>
-	<a href="https://www.autosellersystem.com/kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		오토셀러
-	</a>
+	<a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
+	</a> -->
 </div>
 <div id="footer-banner">
 	<a href="https://www.esenderchina.com/cn/" target="_blank">
@@ -518,6 +515,44 @@
   window.setTimeout(offsetAnchor, 0);
 </script>
 
+
+
+
+
+<script type="text/javascript">
+
+  
+
+  var current_permalink = window.location.pathname.match(/([^\/]*)\/*$/)[1];
+
+  var lang_en = document.getElementById('lang-en');
+  if ( current_permalink !== 'en' ) {
+    lang_en.href = '/en/' + current_permalink + '/';
+  }
+  var lang_cn = document.getElementById('lang-cn');
+  if ( current_permalink !== 'cn' ) {
+    lang_cn.href = '/cn/' + current_permalink + '/';
+  }
+  var lang_zh = document.getElementById('lang-zh');
+  if ( current_permalink !== 'zh' ) {
+    lang_zh.href = '/zh/' + current_permalink + '/';
+  }
+  var lang_jp = document.getElementById('lang-jp');
+  if ( current_permalink !== 'jp' ) {
+    lang_jp.href = '/jp/' + current_permalink + '/';
+  }
+  var lang_kr = document.getElementById('lang-kr');
+  if ( current_permalink !== 'kr' ) {
+    lang_kr.href = '/kr/' + current_permalink + '/';
+  }
+  var lang_vn = document.getElementById('lang-vn');
+  if ( current_permalink !== 'vn' ) {
+    lang_vn.href = '/vn/' + current_permalink + '/';
+  }
+
+  
+
+</script>
 
 
 

@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(document).bind('contextmenu', function(e) {
     if (!$(e.target).parents().hasClass('allowContent')) {
-      alert('오른쪽 마우스 클릭은 사용할 수 없습니다. 서비스를 이용해 주셔서 감사합니다.');
+      alert('右鍵點擊已被禁用。感謝您使用我們的服務。.');
       return false;
     } else {
       return true;

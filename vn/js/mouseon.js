@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(document).bind('contextmenu', function(e) {
     if (!$(e.target).parents().hasClass('allowContent')) {
-      alert('오른쪽 마우스 클릭은 사용할 수 없습니다. 서비스를 이용해 주셔서 감사합니다.');
+      alert('Chuột phải đã bị vô hiệu hóa. Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi..');
       return false;
     } else {
       return true;

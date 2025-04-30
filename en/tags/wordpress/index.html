@@ -410,25 +410,27 @@
 			<i class="fas fa-dollar-sign"></i> <a href="/en/" title="MoneySkillTalk Blog">MoneySkillTalk Blog</a>
 			&copy; <span class="post-year"></span> 
 		</div>
-		<nav class="site-footer-nav">
+		<!-- <nav class="site-footer-nav">
 			
-			<a href="https://www.esenderchina.com/" title="eSender : Virtual Phone Number" target="_blank" rel="noopener">eSender : Virtual Phone Number</a>
+			<a href="https://www.esenderchina.com/" title="eSender : Virtual Phone Number" target="_blank" rel="noopener">eSender : Virtual Phone Number</a> 
+		</nav> -->
+		<nav class="site-footer-nav site-footer-languages">
+			<a href="/en/" id="lang-en">English</a>
+			<a href="/cn/" id="lang-cn">中文简体</a>
+			<a href="/zh/" id="lang-zh">中文繁體</a>
+			<a href="/jp/" id="lang-jp">日本語</a>
+			<a href="/kr/" id="lang-kr">한국어</a>
+			<a href="/vn/" id="lang-vn">Tiếng Việt</a>
 		</nav>
 	</div>
 </footer>
 <div class="sponsorship" style="background-color:#000!important; text-align:center; font-size:0.5rem;">
-	<a href="https://www.langtalk.kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		랭톡
+	<!-- <a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
 	</a> <span style="color:#000!important;">|</span>
-	<a href="https://news.langtalk.kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		랭톡 매거진
-	</a> <span style="color:#000!important;">|</span>
-	<a href="https://www.homepagechina.com/kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		홈페이지차이나
-	</a> <span style="color:#000!important;">|</span>
-	<a href="https://www.autosellersystem.com/kr/" target="_blank" style="text-decoration:none; color:#000!important;">
-		오토셀러
-	</a>
+	<a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
+	</a> -->
 </div>
 <div id="footer-banner">
 	<a href="https://www.esenderchina.com/" target="_blank">
@@ -535,6 +537,44 @@
   window.setTimeout(offsetAnchor, 0);
 </script>
 
+
+
+
+
+<script type="text/javascript">
+
+  
+
+  var current_permalink = window.location.pathname.match(/([^\/]*)\/*$/)[1];
+
+  var lang_en = document.getElementById('lang-en');
+  if ( current_permalink !== 'en' ) {
+    lang_en.href = '/en/' + current_permalink + '/';
+  }
+  var lang_cn = document.getElementById('lang-cn');
+  if ( current_permalink !== 'cn' ) {
+    lang_cn.href = '/cn/' + current_permalink + '/';
+  }
+  var lang_zh = document.getElementById('lang-zh');
+  if ( current_permalink !== 'zh' ) {
+    lang_zh.href = '/zh/' + current_permalink + '/';
+  }
+  var lang_jp = document.getElementById('lang-jp');
+  if ( current_permalink !== 'jp' ) {
+    lang_jp.href = '/jp/' + current_permalink + '/';
+  }
+  var lang_kr = document.getElementById('lang-kr');
+  if ( current_permalink !== 'kr' ) {
+    lang_kr.href = '/kr/' + current_permalink + '/';
+  }
+  var lang_vn = document.getElementById('lang-vn');
+  if ( current_permalink !== 'vn' ) {
+    lang_vn.href = '/vn/' + current_permalink + '/';
+  }
+
+  
+
+</script>
 
 
 

@@ -345,12 +345,18 @@ code {
 }
 
 .site-footer {
-  padding-bottom: 60px !important;
+  padding-bottom: 70px !important;
 }
 
 @media (max-width: 500px) {
   .site-footer {
     padding-bottom: 90px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer-languages {
+    padding-top: 1rem !important;
   }
 }
 

@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://blog.moneyskilltalk.com/global-korean-online-community-chinatalk/</loc>
-        <lastmod>2025-05-01T00:52:00.040Z</lastmod>
+        <loc>https://blog.moneyskilltalk.com/global-korean-online-community-vietnamtalk/</loc>
+        <lastmod>2025-05-01T01:00:07.095Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,15 @@
 
     <url>
         <loc>https://blog.moneyskilltalk.com/global-korean-online-community-japantalk/</loc>
-        <lastmod>2025-05-01T00:51:51.612Z</lastmod>
+        <lastmod>2025-05-01T00:59:22.362Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.moneyskilltalk.com/global-korean-online-community-chinatalk/</loc>
+        <lastmod>2025-05-01T00:57:23.486Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,14 +34,6 @@
     <url>
         <loc>https://blog.moneyskilltalk.com/global-korean-online-community-taiwantalk/</loc>
         <lastmod>2025-05-01T00:51:22.014Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.moneyskilltalk.com/global-korean-online-community-vietnamtalk/</loc>
-        <lastmod>2025-05-01T00:51:11.356Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

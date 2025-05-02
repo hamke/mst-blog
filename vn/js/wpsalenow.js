@@ -19,7 +19,7 @@ fetch(themes_envato_free)
     }
     // console.log(output_themes_free);
     if ( output_themes_free !== '' ) {
-      document.getElementById('wpsalenow-themes-free').innerHTML = '<h2>◼︎ 워드프레스 테마 실시간 프로모션 (무료)</h2>' + output_themes_free + '<hr>';
+      document.getElementById('wpsalenow-themes-free').innerHTML = '<h2>◼︎ Khuyến mãi theo thời gian thực cho giao diện WordPress (Miễn phí)</h2>' + output_themes_free + '<hr>';
     }
   }
 })
@@ -40,7 +40,7 @@ fetch(themes_envato_sale)
     }
     // console.log(output_themes_sale);
     if ( output_themes_sale !== '' ) {
-      document.getElementById('wpsalenow-themes-sale').innerHTML = '<h2>◼︎ 워드프레스 테마 실시간 프로모션 (할인)</h2>' + output_themes_sale + '<hr>';
+      document.getElementById('wpsalenow-themes-sale').innerHTML = '<h2>◼︎ Khuyến mãi theo thời gian thực cho giao diện WordPress (Giảm giá)</h2>' + output_themes_sale + '<hr>';
     }
   }
 })
@@ -61,7 +61,7 @@ fetch(plugins_envato_sale)
     }
     // console.log(output_plugins_sale);
     if ( output_plugins_sale !== '' ) {
-      document.getElementById('wpsalenow-plugins-sale').innerHTML = '<h2>◼︎ 워드프레스 플러그인 실시간 프로모션 (할인)</h2>' + output_plugins_sale + '<hr>';
+      document.getElementById('wpsalenow-plugins-sale').innerHTML = '<h2>◼︎ Khuyến mãi theo thời gian thực cho plugin WordPress (Giảm giá)</h2>' + output_plugins_sale + '<hr>';
     }
   }
 })
@@ -82,7 +82,7 @@ fetch(hosting_api_sale)
     }
     // console.log(output_hosting_sale);
     if ( output_hosting_sale !== '' ) {
-      document.getElementById('wpsalenow-hosting-sale').innerHTML = '<h2>◼︎ 워드프레스 호스팅 실시간 프로모션 (할인)</h2>' + output_hosting_sale + '<hr>';
+      document.getElementById('wpsalenow-hosting-sale').innerHTML = '<h2>◼︎ Khuyến mãi theo thời gian thực cho dịch vụ hosting WordPress (Giảm giá)</h2>' + output_hosting_sale + '<hr>';
     }
   }
 })

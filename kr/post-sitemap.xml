@@ -9,7 +9,15 @@
 
     <url>
         <loc>https://blog.moneyskilltalk.com/kr/wordpress-examples-all-list/</loc>
-        <lastmod>2025-05-06T09:33:35.310Z</lastmod>
+        <lastmod>2025-05-06T10:01:28.239Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.moneyskilltalk.com/kr/wordpress-themes-ranking-updated/</loc>
+        <lastmod>2025-05-06T09:59:54.374Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,14 +34,6 @@
     <url>
         <loc>https://blog.moneyskilltalk.com/kr/kakaopay-qr-code-download/</loc>
         <lastmod>2025-05-06T05:37:36.068Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.moneyskilltalk.com/kr/wordpress-themes-ranking-updated/</loc>
-        <lastmod>2025-05-06T05:03:30.295Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

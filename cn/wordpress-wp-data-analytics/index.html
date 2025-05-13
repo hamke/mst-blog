@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息</title>
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+	<meta name="author" content="MoneySkillTalk">
+	<meta name="description" content="WordPress Analytics（www.wp-data.com） 是一个免费的在线工具，用于检测一个网站是否由 WordPress 构建，并分析其所使用的主题、插件和主机服务等信息.">
+
+	
+	<meta name="keywords" content="">
+	
+
+	
+	<link rel="shortcut icon" href="https://blog.moneyskilltalk.com/img/favicon.ico">
+	<link rel="apple-touch-icon" href="https://blog.moneyskilltalk.com/img/favicon.ico"/>
+	
+
+	
+	<meta name="theme-color" content="#3c484e">
+	<meta name="msapplication-TileColor" content="#3c484e">
+	
+
+	
+
+	
+
+	<meta property="og:site_name" content="MoneySkillTalk(财智谈)博客">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息">
+	<meta property="og:description" content="WordPress Analytics（www.wp-data.com） 是一个免费的在线工具，用于检测一个网站是否由 WordPress 构建，并分析其所使用的主题、插件和主机服务等信息.">
+	<meta property="og:url" content="https://blog.moneyskilltalk.com/cn/cn/wordpress-wp-data-analytics/">
+	<meta property="og:image" content="https://hellotblog.wordpress.com/wp-content/uploads/2020/03/wptalk-wordpress-analytics-image-02-800x400-1.png">
+
+	
+	<meta property="article:published_time" content="2025-04-29T18:04:00+09:00"/>
+	<meta property="article:author" content="MoneySkillTalk">
+	<meta property="article:published_first" content="MoneySkillTalk(财智谈)博客, /cn/wordpress-wp-data-analytics/" />
+	
+
+	
+<script src="/cn/js/jquery-3.4.1.min.js"></script>
+
+	
+<script src="/cn/js/bootstrap/4.1.1/bootstrap.min.js"></script>
+
+
+	
+
+	
+<link rel="stylesheet" href="/cn/css/allinonecss.min.css">
+
+	
+<link rel="stylesheet" href="/cn/css/custom/style.css">
+
+	
+<link rel="stylesheet" href="/cn/css/custom/all.css">
+
+	
+<link rel="stylesheet" href="/cn/css/custom/font-awesome-animation.min.css">
+
+
+	
+
+	<script data-ad-client="ca-pub-XXXXXXXX" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+
+	
+<link rel="canonical" href="https://blog.moneyskilltalk.com/cn/wordpress-wp-data-analytics/"/>
+
+<script type="application/ld+json">
+	[
+	{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息",
+		"datePublished": "2025-04-29T09:00:00.000Z",
+		"@id": "https://blog.moneyskilltalk.com/cn/wordpress-wp-data-analytics/",
+		"author": {"@type": "Person",
+		"name": "MoneySkillTalk"},
+		"description": "WordPress Analytics（www.wp-data.com） 是一个免费的在线工具，用于检测一个网站是否由 WordPress 构建，并分析其所使用的主题、插件和主机服务等信息.",
+		"image": "https://hellotblog.wordpress.com/wp-content/uploads/2020/03/wptalk-wordpress-analytics-image-02-800x400-1.png"
+	},
+	{
+		"@context": "http://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement":
+		[
+		{
+			"@type": "ListItem",
+			"position": 1,
+			"name": "Home",
+			"item": "https://blog.moneyskilltalk.com/cn"
+		},
+		{
+			"@type": "ListItem",
+			"position": 2,
+			"name": "WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息",
+			"item": "https://blog.moneyskilltalk.com/cn/wordpress-wp-data-analytics/"
+		}
+		]
+	}
+	]
+</script>
+
+
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body class="post-template">
+	<div class="site-wrapper">
+		
+
+
+
+
+<header class="site-header post-site-header outer">
+    <div class="inner">
+        
+<nav class="site-nav">
+    <div class="site-nav-left">
+        <ul class="nav">
+            
+            <li>
+                <a href="/cn/" title="Home">HOME</a>
+            </li>
+            <li>
+                <a href="https://www.esenderchina.com/cn/" target="_blank">易博通(eSender) : 中国/香港虚拟电话号码服务</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="search-button-area">
+        <a href="#search" class="search-button">搜索</a>
+    </div>
+    
+    <div class="site-nav-right">
+        
+        <a href="#search" class="search-button">搜索</a>
+        
+        
+<div class="social-links" >
+    
+    
+    
+    
+    
+    
+    
+</div>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+
+
+  <div id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+      <header class="post-full-header">
+        <h1 class="post-full-title">WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息</h1>
+        <div class="post-full-meta">
+          <time class="post-full-meta-date" datetime="2025-04-29T09:00:00.000Z">
+            2025-04-29
+          </time>
+          
+            <span class="date-divider">/</span>
+            
+              <a href="/cn/categories/wordpress/">wordpress</a>&nbsp;&nbsp;
+            
+          
+        </div>
+      </header>
+      <div class="post-full ">
+        
+          <figure class="post-full-image" style="background-image: url(https://hellotblog.wordpress.com/wp-content/uploads/2025/04/wptalk-wordpress-intro-img-01-1200.jpg)"></figure>
+        
+        <div class="post-full-content">
+          <article id="lightgallery" class="markdown-body">
+            <div class="above-content">
+              <div class="post-logo-above-content">
+                <a href="https://www.moneyskilltalk.com/cn/" target="_blank">
+                  <img src="https://hellotblog.wordpress.com/wp-content/uploads/2025/03/automoneytalk-logo-ai-img-01-120x120-1.png" style="max-width:100%;" alt="">
+                </a>
+              </div>
+              <div class="updated-post-date">
+                <i class="fas fa-clock"></i>
+                更新日期 :
+                <span class="date-block">
+                  <span class="post-year"></span>-<span class="post-month-digits"></span>-01</span>
+              </div>
+            </div>
+            <hr>
+            <p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 是一个免费的在线工具，用于检测一个网站是否由 WordPress 构建，并分析其所使用的主题、插件和主机服务等信息。对于希望了解竞争对手或参考网站技术栈的开发者、设计师和市场人员来说非常实用。</p>
+<p>🔍 主要功能<br>    1.    WordPress 使用检测<br>• 自动识别输入的网址是否使用 WordPress 构建。<br>    2.    主题与插件分析<br>• 识别并列出网站当前使用的 WordPress 主题和插件。<br>    3.    主机服务信息<br>• 推测并显示网站所使用的主机服务提供商。<br>    4.    代理机构信息注册<br>• 可添加或修改分析结果中显示的代理机构信息。<br>    5.    多语言支持<br>• 支持韩语、英语、日语、中文、越南语等多种语言，全球用户都可使用。</p>
+<p>🛠 使用方法<br>    1.    访问 <a href="http://www.wp-data.com" target="_blank" rel="noopener">www.wp-data.com</a><br>    2.    输入你想分析的网站 URL（例如：<a href="https://example.com）" target="_blank" rel="noopener">https://example.com）</a><br>    3.    点击“分析”按钮，即可查看是否使用 WordPress、所用主题、插件及主机信息等。</p>
+<p>🎯 使用场景<br>• 快速掌握参考网站的技术结构，用于项目开发。<br>• 分析竞争对手使用的主题和插件，进行市场对标。<br>• 注册代理机构信息，展示和管理作品集。</p>
+<p>WordPress Analytics（<a href="http://www.wp-data.com）" target="_blank" rel="noopener">www.wp-data.com）</a> 无需安装或登录，即可轻松使用，是快速了解 WordPress 网站技术信息的实用工具。但请注意，分析结果基于公开数据，部分插件或定制内容可能无法准确识别。</p>
+
+          </article>
+          <ul class="tags-postTags">
+            
+              <li>
+                <a href="/cn/tags/wordpress/" rel="tag">#
+                  wordpress</a>
+              </li>
+            
+              <li>
+                <a href="/cn/tags/wp-data/" rel="tag">#
+                  wp-data</a>
+              </li>
+            
+          </ul>
+
+          <div class="adsense-below-content">
+    				<!-- Google Adsense (MoneySkillTalk Blog : Middle (Square)) : Start -->
+<!-- <div class="adsense-section">
+  <div class="adsense-square-1">
+    <ins class="adsbygoogle" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXX"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div class="adsense-square-2">
+    <ins class="adsbygoogle" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXX"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div> -->
+<!-- Google Adsense (WP-TALK : Middle (Square)) : End -->
+
+    			</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <nav id="gobottom" class="pagination">
+      
+        <a class="prev-post" title="WordPress Sale Now - WordPress主题、插件和主机服务最新折扣和免费促销信息" href="/cn/wordpress-wp-sale-now/">
+          ←
+          WordPress Sale Now - WordPress主题、插件和主机服务最新折扣和免费促销信息
+        </a>
+      
+      <span class="prev-next-post">·</span>
+      
+        <a class="next-post" title="WordPress Sites Random Viewer - 随机浏览全球使用 WordPress 搭建的网站" href="/cn/wordpress-wp-viewer/">
+          WordPress Sites Random Viewer - 随机浏览全球使用 WordPress 搭建的网站
+          →
+        </a>
+      
+    </nav>
+
+    
+  </div>
+  
+
+
+	</div>
+	
+
+
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+            
+
+<article class="read-next-card"  style="background-image: url(https://hellotblog.wordpress.com/wp-content/uploads/2024/08/motnani-background-img-default-2048x1152-1-1.jpg)"  >
+  <header class="read-next-card-header">
+    <small class="read-next-card-header-sitetitle">&mdash; MoneySkillTalk(财智谈)博客 &mdash;</small>
+    <h3 class="read-next-card-header-title">最新文章</h3>
+  </header>
+  <div class="read-next-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/>
+    </svg>
+  </div>
+  <div class="read-next-card-content">
+    <ul>
+      
+      
+      
+      <li>
+        <a href="/cn/kakaopay-qr-code-download/">查看和下载 KakaoPay 收款二维码的方法</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/cn/wordpress-examples-all-list/">WordPress 网站案例合集（中国/日本/韩国/美国/欧洲等）</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/cn/wordpress-themes-ranking-updated/">WordPress热门主题实时下载/销售排名及推荐免费/付费主题最新信息</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+  <footer class="read-next-card-footer">
+    <a href="/cn/archives">  查看更多  → </a>
+  </footer>
+</article>
+
+
+            
+            
+            
+
+<article class="read-next-card"  style="background-image: url(https://hellotblog.wordpress.com/wp-content/uploads/2024/08/motnani-background-img-default-2048x1152-1-1.jpg)"  >
+    <header class="read-next-card-header tagcloud-card">
+        <h3 class="read-next-card-header-title">分类</h3>
+    </header>
+    <div class="read-next-card-content">
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/cn/categories/ChinaTalk/">ChinaTalk</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/JapanTalk/">JapanTalk</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/KakaoPay/">KakaoPay</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/TaiwanTalk/">TaiwanTalk</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/USATalk/">USATalk</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/VietnamTalk/">VietnamTalk</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/WordPress/">WordPress</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/eSender/">eSender</a></li><li class="category-list-item"><a class="category-list-link" href="/cn/categories/wordpress/">wordpress</a></li></ul>
+    </div>
+</article>
+
+
+            
+            
+            
+
+<article class="read-next-card"  style="background-image: url(https://hellotblog.wordpress.com/wp-content/uploads/2024/08/motnani-background-img-default-2048x1152-1-1.jpg)"  >
+	<header class="read-next-card-header tagcloud-card">
+		<h3 class="read-next-card-header-title">标签云</h3>
+	</header>
+	<div class="read-next-card-content-ext">
+		<a href="/cn/tags/ChinaTalk/" style="font-size: 14px;">ChinaTalk</a> <a href="/cn/tags/JapanTalk/" style="font-size: 14px;">JapanTalk</a> <a href="/cn/tags/KakaoPay/" style="font-size: 14px;">KakaoPay</a> <a href="/cn/tags/TaiwanTalk/" style="font-size: 14px;">TaiwanTalk</a> <a href="/cn/tags/USATalk/" style="font-size: 14px;">USATalk</a> <a href="/cn/tags/VietnamTalk/" style="font-size: 14px;">VietnamTalk</a> <a href="/cn/tags/WordPress/" style="font-size: 14px;">WordPress</a> <a href="/cn/tags/eSender/" style="font-size: 14px;">eSender</a> <a href="/cn/tags/wordpress/" style="font-size: 24px;">wordpress</a> <a href="/cn/tags/wp-data/" style="font-size: 14px;">wp-data</a> <a href="/cn/tags/wp-viewer/" style="font-size: 19px;">wp-viewer</a> <a href="/cn/tags/wpsalenow/" style="font-size: 14px;">wpsalenow</a>
+	</div>
+</article>
+
+            
+        </div>
+        <div class="adsense-above-footer">
+  				<!-- Google Adsense (MoneySkillTalk Blog : Middle) : Start -->
+<!-- <ins class="adsbygoogle"
+	 style="display:block"
+	 data-ad-client="ca-pub-XXXXXXXX"
+	 data-ad-slot="XXXXXXXX"
+	 data-ad-format="auto"
+	 data-full-width-responsive="false"></ins>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+</script> -->
+<!-- Google Adsense (WP-TALK : Middle) : End -->
+
+  			</div>
+    </div>
+</aside>
+
+
+	
+
+
+
+
+<div id="search" class="search-overlay">
+    <div class="search-form">
+        
+        <img class="search-overlay-logo" src="https://blog.moneyskilltalk.com/img/favicon.ico" alt="MoneySkillTalk(财智谈)博客">
+        
+        <a href="/cn/">
+          <span class="search-overlay-title">MoneySkillTalk(财智谈)博客</span>
+        </a>
+        <input id="local-search-input" class="search-input" type="text" name="search" placeholder="搜索">
+        <a class="search-overlay-close" href="#"></a>
+    </div>
+    <div id="local-search-result"></div>
+</div>
+
+
+<footer class="site-footer outer">
+	<div class="site-footer-content inner">
+		<div class="copyright">
+			<i class="fas fa-dollar-sign"></i> <a href="/cn/" title="MoneySkillTalk(财智谈)博客">MoneySkillTalk(财智谈)博客</a>
+			&copy; <span class="post-year"></span> 
+		</div>
+		<!-- <nav class="site-footer-nav">
+			
+			<a href="https://www.esenderchina.com/cn/" title="易博通(eSender) : 中国&#x2F;香港虚拟电话号码服务" target="_blank" rel="noopener">易博通(eSender) : 中国&#x2F;香港虚拟电话号码服务</a>
+		</nav> -->
+		<nav class="site-footer-nav site-footer-languages">
+			<a href="/en/" id="lang-en">English</a>
+			<a href="/cn/" id="lang-cn">中文简体</a>
+			<a href="/zh/" id="lang-zh">中文繁體</a>
+			<a href="/jp/" id="lang-jp">日本語</a>
+			<a href="/kr/" id="lang-kr">한국어</a>
+			<a href="/vn/" id="lang-vn">Tiếng Việt</a>
+		</nav>
+	</div>
+</footer>
+<div class="sponsorship" style="background-color:#000!important; text-align:center; font-size:0.5rem;">
+	<!-- <a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
+	</a> <span style="color:#000!important;">|</span>
+	<a href="https://www.xxxxxxxx.com/" target="_blank" style="text-decoration:none; color:#000!important;">
+		...
+	</a> -->
+</div>
+<div id="footer-banner">
+	<a href="https://www.esenderchina.com/cn/" target="_blank">
+		<div class="footer-promo-text">
+			易博通(eSender) : 中国/香港虚拟电话号码服务<br>优惠码 ( <span class="post-year"></span>年 <span class="post-month"></span>月 )
+		</div>
+	</a>
+</div>
+
+	
+
+
+<script>if(window.navigator && navigator.serviceWorker) {navigator.serviceWorker.getRegistrations().then(function(registrations) {for(let registration of registrations) {registration.unregister()}})}</script>
+
+
+<script async src="/cn/js/allinone.min.js" id="scriptLoad"></script>
+
+
+
+
+
+
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function () {
+        var bLazy = new Blazy()
+    })
+</script>
+
+
+
+
+<div class="floating-header" >
+	<div class="floating-header-logo">
+        <a href="/cn/" title="MoneySkillTalk(财智谈)博客">
+			
+                <img src="https://blog.moneyskilltalk.com/img/favicon.ico" alt="MoneySkillTalk(财智谈)博客 icon" />
+			
+            <span>MoneySkillTalk(财智谈)博客</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">WordPress Analytics - 检测一个网站是否由 WordPress 构建，并分析其他信息</div>
+    <progress class="progress" value="0">
+        <span class="progress-container">
+            <span class="progress-bar"></span>
+        </span>
+    </progress>
+</div>
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function () {
+        postProgressBar()
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function(){
+        searchFunc("/cn/")
+    });
+</script>
+
+
+
+
+
+
+	<script async src="/cn/js/custom.js"></script>
+
+<script async src="https://www.wp-talk.com/assets/js/html2pdf.bundle.min.js"></script>
+
+<script async src="/cn/js/date.js"></script>
+
+
+
+<script async src="/cn/js/mouseon.js"></script>
+
+
+
+
+<script async src="/cn/js/back-to-top.js"></script>
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M58FHGCL2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M58FHGCL2T');
+</script>
+
+
+
+
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "2ecccbc775676";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+
+
+
+
+<script type="text/javascript">
+  function offsetAnchor() {
+    if (location.hash.length !== 0) {
+      window.scrollTo(window.scrollX, window.scrollY - 70);
+    }
+  }
+  $(document).on('click', 'a[href^="#"]', function(event) {
+    window.setTimeout(function() {
+      offsetAnchor();
+    }, 0);
+  });
+  window.setTimeout(offsetAnchor, 0);
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+  
+
+  var current_permalink = window.location.pathname.match(/([^\/]*)\/*$/)[1];
+
+  var lang_en = document.getElementById('lang-en');
+  if ( current_permalink !== 'en' ) {
+    lang_en.href = '/en/' + current_permalink + '/';
+  }
+  var lang_cn = document.getElementById('lang-cn');
+  if ( current_permalink !== 'cn' ) {
+    lang_cn.href = '/cn/' + current_permalink + '/';
+  }
+  var lang_zh = document.getElementById('lang-zh');
+  if ( current_permalink !== 'zh' ) {
+    lang_zh.href = '/zh/' + current_permalink + '/';
+  }
+  var lang_jp = document.getElementById('lang-jp');
+  if ( current_permalink !== 'jp' ) {
+    lang_jp.href = '/jp/' + current_permalink + '/';
+  }
+  var lang_kr = document.getElementById('lang-kr');
+  if ( current_permalink !== 'kr' ) {
+    lang_kr.href = '/kr/' + current_permalink + '/';
+  }
+  var lang_vn = document.getElementById('lang-vn');
+  if ( current_permalink !== 'vn' ) {
+    lang_vn.href = '/vn/' + current_permalink + '/';
+  }
+
+  
+
+</script>
+
+
+
+	<!-- <a id="chat-button" href="https://www.moneyskilltalk.com/kr/kakao/" target="_blank">
+		<img src="https://hellotblog.files.wordpress.com/2019/07/kakaotalk-chat-button-100x100.png">
+	</a> -->
+	<a id="browser-print" onclick="window.print()" href="javascript:void(0)" class="" title="Print"><i class="fas fa-print"></i></a>
+	<a id="back-to-top" href="#" class="" title="Go To Top"><i class="fas fa-chevron-up"></i></a>
+
+</body>
+</html>

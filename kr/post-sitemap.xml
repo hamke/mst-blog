@@ -9,7 +9,15 @@
 
     <url>
         <loc>https://blog.moneyskilltalk.com/kr/just-play-around-first/</loc>
-        <lastmod>2025-09-24T12:37:43.875Z</lastmod>
+        <lastmod>2025-09-24T18:51:31.077Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.moneyskilltalk.com/kr/wordpress-themes-ranking-updated/</loc>
+        <lastmod>2025-09-24T18:48:05.592Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -122,14 +130,6 @@
     <url>
         <loc>https://blog.moneyskilltalk.com/kr/wordpress-examples-all-list/</loc>
         <lastmod>2025-05-13T10:17:08.411Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.moneyskilltalk.com/kr/wordpress-themes-ranking-updated/</loc>
-        <lastmod>2025-05-06T09:59:54.374Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

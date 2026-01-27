@@ -445,6 +445,115 @@ code {
   }
 }
 
+#chinatalk-feed hr,
+#taiwantalk-feed hr,
+#japantalk-feed hr,
+#usatalk-feed hr,
+#vietnamtalk-feed hr,
+#koreatalk-feed hr {
+	padding-top: 30px;
+}
+
+#chinatalk-feed,
+#taiwantalk-feed,
+#japantalk-feed,
+#usatalk-feed,
+#vietnamtalk-feed,
+#koreatalk-feed li {
+	padding-bottom: 10px;
+}
+
+#chinatalk-feed li a,
+#taiwantalk-feed li a,
+#japantalk-feed li a,
+#usatalk-feed li a,
+#vietnamtalk-feed li a,
+#koreatalk-feed li a {
+	background: none !important;
+	color: #333 !important;
+}
+
+#chinatalk-feed li .item-price,
+#taiwantalk-feed li .item-price,
+#japantalk-feed li .item-price,
+#usatalk-feed li .item-price,
+#vietnamtalk-feed li .item-price,
+#koreatalk-feed li .item-price {
+	font-size: 1.4rem;
+	color: #666;
+}
+
+#chinatalk-feed table,
+#taiwantalk-feed table,
+#japantalk-feed table,
+#usatalk-feed table,
+#vietnamtalk-feed table,
+#koreatalk-feed table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+#chinatalk-feed table thead th,
+#taiwantalk-feed table thead th,
+#japantalk-feed table thead th,
+#usatalk-feed table thead th,
+#vietnamtalk-feed table thead th,
+#koreatalk-feed table thead th {
+  padding: 7px 5px 11px;
+  border-left: 1px solid #e6e6e6;
+}
+
+#chinatalk-feed table thead tr.title,
+#taiwantalk-feed table thead tr.title,
+#japantalk-feed table thead tr.title,
+#usatalk-feed table thead tr.title,
+#vietnamtalk-feed table thead tr.title,
+#koreatalk-feed table thead tr.title {
+  white-space: nowrap;
+}
+
+#chinatalk-feed table thead td,
+#taiwantalk-feed table thead td,
+#japantalk-feed table thead td,
+#usatalk-feed table thead td,
+#vietnamtalk-feed table thead td,
+#koreatalk-feed table thead td {
+  padding: 7px 5px 11px;
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+
+.markdown-body #chinatalk-feed h2 a,
+.markdown-body #taiwantalk-feed h2 a,
+.markdown-body #japantalk-feed h2 a,
+.markdown-body #usatalk-feed h2 a,
+.markdown-body #vietnamtalk-feed h2 a,
+.markdown-body #koreatalk-feed h2 a {
+  color: var(--H-title);
+}
+
+#chinatalk-feed table tbody,
+#taiwantalk-feed table tbody,
+#japantalk-feed table tbody,
+#usatalk-feed table tbody,
+#vietnamtalk-feed table tbody,
+#koreatalk-feed table tbody {
+  line-height: 1.5em;
+}
+
+#chinatalk-feed table tbody td,
+#taiwantalk-feed table tbody td,
+#usatalk-feed table tbody td,
+#usatalk-feed table tbody td,
+#vietnamtalk-feed table tbody td,
+#koreatalk-feed table tbody td, {
+  padding: 1em 5px;
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+
 #wpsalenow-themes-free li .item-price,
 #wpsalenow-themes-sale li .item-price,
 #wpsalenow-plugins-sale li .item-price,

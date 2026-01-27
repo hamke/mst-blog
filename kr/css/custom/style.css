@@ -548,7 +548,7 @@ code {
 #usatalk-feed table tbody td,
 #usatalk-feed table tbody td,
 #vietnamtalk-feed table tbody td,
-#koreatalk-feed table tbody td, {
+#koreatalk-feed table tbody td {
   padding: 1em 5px;
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;

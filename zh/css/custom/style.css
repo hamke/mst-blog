@@ -445,6 +445,60 @@ code {
   }
 }
 
+#koreatalk-zh-feed hr {
+	padding-top: 30px;
+}
+
+#koreatalk-zh-feed li {
+	padding-bottom: 10px;
+}
+
+#koreatalk-zh-feed li a {
+	background: none !important;
+	color: #333 !important;
+}
+
+#koreatalk-zh-feed li .item-price {
+	font-size: 1.4rem;
+	color: #666;
+}
+
+#koreatalk-zh-feed table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+#koreatalk-zh-feed table thead th {
+  padding: 7px 5px 11px;
+  border-left: 1px solid #e6e6e6;
+}
+
+#koreatalk-zh-feed table thead tr.title {
+  white-space: nowrap;
+}
+
+#koreatalk-zh-feed table thead td {
+  padding: 7px 5px 11px;
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+
+.markdown-body #koreatalk-zh-feed h2 a {
+  color: var(--H-title);
+}
+
+#koreatalk-zh-feed table tbody {
+  line-height: 1.5em;
+}
+
+#koreatalk-zh-feed table tbody td {
+  padding: 1em 5px;
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+
 #wpsalenow-themes-free li .item-price,
 #wpsalenow-themes-sale li .item-price,
 #wpsalenow-plugins-sale li .item-price,

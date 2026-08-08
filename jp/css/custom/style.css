@@ -445,24 +445,29 @@ code {
   }
 }
 
+#chinatalk-jp-feed hr,
 #koreatalk-jp-feed hr {
 	padding-top: 30px;
 }
 
+#chinatalk-jp-feed li,
 #koreatalk-jp-feed li {
 	padding-bottom: 10px;
 }
 
+#chinatalk-jp-feed li a,
 #koreatalk-jp-feed li a {
 	background: none !important;
 	color: #333 !important;
 }
 
+#chinatalk-jp-feed li .item-price,
 #koreatalk-jp-feed li .item-price {
 	font-size: 1.4rem;
 	color: #666;
 }
 
+#chinatalk-jp-feed table,
 #koreatalk-jp-feed table {
   border-collapse: collapse;
   border: 1px solid #ddd;
@@ -470,29 +475,35 @@ code {
   text-align: center;
 }
 
+#chinatalk-jp-feed table thead th,
 #koreatalk-jp-feed table thead th {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
 }
 
+#chinatalk-jp-feed table thead tr.title,
 #koreatalk-jp-feed table thead tr.title {
   white-space: nowrap;
 }
 
+#chinatalk-jp-feed table thead td,
 #koreatalk-jp-feed table thead td {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
 }
 
+.markdown-body #chinatalk-jp-feed h2 a,
 .markdown-body #koreatalk-jp-feed h2 a {
   color: var(--H-title);
 }
 
+#chinatalk-jp-feed table tbody,
 #koreatalk-jp-feed table tbody {
   line-height: 1.5em;
 }
 
+#chinatalk-jp-feed table tbody td,
 #koreatalk-jp-feed table tbody td {
   padding: 1em 5px;
   border-left: 1px solid #e6e6e6;

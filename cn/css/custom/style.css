@@ -445,24 +445,29 @@ code {
   }
 }
 
+#japantalk-cn-feed hr,
 #koreatalk-cn-feed hr {
 	padding-top: 30px;
 }
 
+#japantalk-cn-feed li,
 #koreatalk-cn-feed li {
 	padding-bottom: 10px;
 }
 
+#japantalk-cn-feed li a,
 #koreatalk-cn-feed li a {
 	background: none !important;
 	color: #333 !important;
 }
 
+#japantalk-cn-feed li .item-price,
 #koreatalk-cn-feed li .item-price {
 	font-size: 1.4rem;
 	color: #666;
 }
 
+#japantalk-cn-feed table,
 #koreatalk-cn-feed table {
   border-collapse: collapse;
   border: 1px solid #ddd;
@@ -470,29 +475,35 @@ code {
   text-align: center;
 }
 
+#japantalk-cn-feed table thead th,
 #koreatalk-cn-feed table thead th {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
 }
 
+#japantalk-cn-feed table thead tr.title,
 #koreatalk-cn-feed table thead tr.title {
   white-space: nowrap;
 }
 
+#japantalk-cn-feed table thead td,
 #koreatalk-cn-feed table thead td {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
 }
 
+.markdown-body #japantalk-cn-feed h2 a,
 .markdown-body #koreatalk-cn-feed h2 a {
   color: var(--H-title);
 }
 
+#japantalk-cn-feed table tbody,
 #koreatalk-cn-feed table tbody {
   line-height: 1.5em;
 }
 
+#japantalk-cn-feed table tbody td,
 #koreatalk-cn-feed table tbody td {
   padding: 1em 5px;
   border-left: 1px solid #e6e6e6;

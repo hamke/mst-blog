@@ -554,32 +554,29 @@ code {
   border-top: 1px solid #e6e6e6;
 }
 
-#wpsalenow-themes-free li .item-price,
-#wpsalenow-themes-sale li .item-price,
-#wpsalenow-plugins-sale li .item-price,
-#wpsalenow-hosting-sale li .item-price {
-	font-size: 1.4rem;
-	color: #666;
-}
-
+#koreatalk-en-feed hr,
 #koreatalk-me-feed hr {
 	padding-top: 30px;
 }
 
+#koreatalk-en-feed li,
 #koreatalk-me-feed li {
 	padding-bottom: 10px;
 }
 
+#koreatalk-en-feed li a,
 #koreatalk-me-feed li a {
 	background: none !important;
 	color: #333 !important;
 }
 
+#koreatalk-en-feed li .item-price,
 #koreatalk-me-feed li .item-price {
 	font-size: 1.4rem;
 	color: #666;
 }
 
+#koreatalk-en-feed table,
 #koreatalk-me-feed table {
   border-collapse: collapse;
   border: 1px solid #ddd;
@@ -587,33 +584,47 @@ code {
   text-align: center;
 }
 
+#koreatalk-en-feed table thead th,
 #koreatalk-me-feed table thead th {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
 }
 
+#koreatalk-en-feed table thead tr.title,
 #koreatalk-me-feed table thead tr.title {
   white-space: nowrap;
 }
 
+#koreatalk-en-feed table thead td,
 #koreatalk-me-feed table thead td {
   padding: 7px 5px 11px;
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
 }
 
+.markdown-body #koreatalk-en-feed h2 a,
 .markdown-body #koreatalk-me-feed h2 a {
   color: var(--H-title);
 }
 
+#koreatalk-en-feed table tbody,
 #koreatalk-me-feed table tbody {
   line-height: 1.5em;
 }
 
+#koreatalk-en-feed table tbody td,
 #koreatalk-me-feed table tbody td {
   padding: 1em 5px;
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
+}
+
+#wpsalenow-themes-free li .item-price,
+#wpsalenow-themes-sale li .item-price,
+#wpsalenow-plugins-sale li .item-price,
+#wpsalenow-hosting-sale li .item-price {
+	font-size: 1.4rem;
+	color: #666;
 }
 
 ::-webkit-scrollbar-thumb {

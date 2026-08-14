@@ -473,6 +473,7 @@ code {
   border: 1px solid #ddd;
   line-height: 2.5em;
   text-align: center;
+  margin: 0 auto;
 }
 
 #japantalk-cn-feed table thead th,

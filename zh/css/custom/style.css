@@ -468,6 +468,7 @@ code {
   border: 1px solid #ddd;
   line-height: 2.5em;
   text-align: center;
+  margin: 0 auto;
 }
 
 #koreatalk-tw-feed table thead th {
